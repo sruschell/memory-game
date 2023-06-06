@@ -1,0 +1,19 @@
+/* background style */
+body {
+    background-image: url('https://images.unsplash.com/photo-1602774433910-a4c76f948875?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80');
+}
+/* parent tiles container */
+.tiles{
+    margin: 200px auto;
+    width: max-content; /*auto margin + width centers tile container */
+    display: grid; /*css3 grid which gives grid to tiles*/
+    grid-template-columns: repeat(4, 100px); /*create 4 columns, 100px wide*/
+    gap: 30px; /*with a gap of 16px between each tile*/
+}
+/*individual tiles*/
+.tile{
+    height: 125px;
+    background: #894E30;
+    border: 5px solid #DABDAD;
+    cursor: pointer;
+}
